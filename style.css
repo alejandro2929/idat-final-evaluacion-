@@ -1,0 +1,146 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.pagina-inicio .container {
+    background-color: white;
+}
+
+.pagina-tienda .container {
+    background-color: #e3e3e3;
+}
+
+.pagina-blog .container {
+    background-color: #cce7ff;
+}
+
+header {
+    background-color: #005485;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+nav {
+    background-color: #037bc0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #8cbc00;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilos para tienda */
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    background-color: #037bc0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin: 15px 0 10px;
+}
+
+.producto .precio {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.boton-agregar {
+    display: inline-block;
+    background-color: #8cbc00;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.boton-agregar:hover {
+    background-color: #7aa600;
+}
+
+/* Estilos para blog */
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.blog-post {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-post h2 {
+    color: #037bc0;
+    font-family: 'Playfair Display', serif;
+}
+
+.blog-post p {
+    color: #333;
+    font-size: 16px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: black;
+    background-color: #ddd;
+}
+
+

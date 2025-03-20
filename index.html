@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiendaMuebles - Tienda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Raleway:wght@100;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --color-black: #000;
+            --color-white: #fff;
+            --color-blue: #037bc0;
+            --color-dark-blue: #005485;
+            --color-green: #8cbc00;
+        }
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: var(--color-black);
+        }
+        header {
+            background-color: var(--color-dark-blue);
+            color: var(--color-white);
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: 'Playfair Display', serif;
+        }
+        nav {
+            background-color: var(--color-blue);
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: var(--color-white);
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 18px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: var(--color-green);
+            border-radius: 5px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: var(--color-white);
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: var(--color-blue);
+            font-family: 'Playfair Display', serif;
+        }
+        .categorias ul, .productos ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .categorias li, .productos li {
+            background: var(--color-blue);
+            color: var(--color-white);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 30%;
+            transition: background 0.3s;
+        }
+        .categorias li img, .productos li img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .productos li button {
+            background: var(--color-green);
+            border: none;
+            color: var(--color-white);
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .productos li button:hover {
+            background: var(--color-dark-blue);
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            color: var(--color-black);
+            background-color: #ddd;
+        }
+        .small-image {
+            width: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        TiendaMuebles
+    </header>
+    <nav>
+        <a href="final idat.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="tienda.html">Tienda</a>
+        <a href="blog.html">Blog</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contactos.html">Contacto</a>
+
+    </nav>
+    
+    <div class="container" id="inicio">
+        <h2>Inicio</h2>
+        <img src="principal.jpg" alt="Imagen principal de la tienda" class="small-image">
+    </div>
+    
+    <div class="container categorias" id="categorias">
+        <h2>Categorías de Productos</h2>
+        <ul>
+            <li><img src="categoria1.jpg" alt="Muebles para Sala"><br>Muebles para Sala</li>
+            <li><img src="categoria2.jpg" alt="Muebles para Oficina"><br>Muebles para Oficina</li>
+            <li><img src="categoria3.jpg" alt="Muebles para Dormitorio"><br>Muebles para Dormitorio</li>
+        </ul>
+    </div>
+    
+    <div class="container" id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <img src="nosotros.jpg" alt="Imagen sobre la empresa" class="small-image">
+        <p>Somos una tienda especializada en muebles modernos y de alta calidad, ofreciendo diseños innovadores y materiales de primera. Nuestro objetivo es brindar confort y elegancia a cada hogar y oficina con precios accesibles y atención personalizada. Nos distinguimos por nuestro compromiso con la excelencia, brindando un servicio al cliente excepcional y un catálogo diverso que abarca todas las necesidades de mobiliario para el hogar y la oficina.</p>
+    </div>
+    
+    <div class="container productos" id="productos">
+        <h2>Nuestros Productos</h2>
+        <ul>
+            <li><img src="primer.jpg" alt="Producto 1 "><br><h3>Sillón Moderno</h3><p>Un sillón cómodo y elegante.</p><button>Agregar al carrito</button></li>
+            <li><img src="segundo.jpg" alt="Producto 2"><br><h3>Escritorio Ejecutivo</h3><p>Ideal para oficina y home office.</p><button>Agregar al carrito</button></li>
+            <li><img src="tercero.jpg" alt="Producto 3 "><br><h3>Ropero de Madera</h3><p>Amplio y resistente.</p><button>Agregar al carrito</button></li>
+            <li><img src="cuarto.jpg" alt="Producto 4 "><br><h3>Centro de Entretenimiento</h3><p>Perfecto para tu sala de TV.</p><button>Agregar al carrito</button></li>
+            <li><img src="quinto.jpg" alt="Producto 5 "><br><h3>Comedor de 6 Sillas</h3><p>Diseño elegante para tu hogar.</p><button>Agregar al carrito</button></li>
+            <li><img src="sexto.jpg" alt="Producto 6 "><br><h3>Estante Multiusos</h3><p>Organiza tu espacio de forma práctica.</p><button>Agregar al carrito</button></li>
+        </ul>
+    </div>
+    
+    <div class="footer">
+        <p>Categorías | Sobre Nosotros | Soporte | Términos y Condiciones</p>
+    </div>
+</body>
+</html>
